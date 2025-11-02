@@ -1,0 +1,23 @@
+# robots.txt for Eraaxis Global Consult
+# https://www.eraaxisglobal.com
+
+User-agent: *
+Allow: /
+
+# Disallow directories that shouldn't be indexed
+Disallow: /logs/
+Disallow: /data/
+Disallow: /vendor/
+Disallow: /test-email.php
+Disallow: /*.php$
+
+# Allow CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://www.eraaxisglobal.com/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+Crawl-delay: 1

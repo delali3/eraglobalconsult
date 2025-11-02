@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer --version)",
+      "Bash(composer require phpmailer/phpmailer)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

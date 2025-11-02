@@ -1,0 +1,92 @@
+🚀 Prompt for AI Website Builder
+
+Build a modern, professional consultation website for Eraaxis Global Consult — a global consulting firm that provides business advisory, career guidance, academic consulting, and corporate services.
+
+The site should look authentic and human-designed, not AI-generated, with clean typography, smooth animations, and a corporate aesthetic similar to https://www.gradedconsultants.com/
+.
+
+Brand Identity
+
+Company Name: Eraaxis Global Consult
+
+Tagline: “Empowering ideas. Elevating excellence.”
+
+Color Palette: Deep blue (#002B5B), white, and light gold (#D4AF37) accents.
+
+Design Style: Professional, minimal, elegant — use soft gradients, ample white space, and confident text hierarchy.
+
+Fonts: Use modern sans-serif like Poppins or Inter.
+
+Main Pages & Structure
+
+Home
+
+Hero section with a background image (diverse professionals or global business team).
+
+Short intro: “We are a global consulting firm helping individuals, startups, and organizations reach their next level of success.”
+
+Call-to-action button: “Book a Consultation”
+
+Section for services overview.
+
+Testimonials carousel.
+
+Footer with contact, social links, and newsletter sign-up.
+
+About Us
+
+Mission, Vision, and Values.
+
+Short company story and leadership image.
+
+Why choose Eraaxis Global Consult — highlight professionalism, global reach, and proven results.
+
+Services
+
+Business Consulting
+
+Academic Advisory
+
+Career Coaching
+
+Corporate Training
+
+Each service should have a short description and “Learn More” button.
+
+Book Consultation
+
+Clean form for users to book appointments (Name, Email, Type of Consultation, Date/Time, Message).
+
+Integrate with an email or calendar API (placeholder integration).
+
+Contact
+
+Office address, phone number, WhatsApp chat button, and Google Map embed.
+
+Simple contact form.
+
+Blog / Insights (Optional)
+
+Section for thought leadership articles and industry news.
+
+Additional Features
+
+Responsive design (mobile-friendly).
+
+Smooth scroll and subtle fade animations.
+
+SEO-optimized structure and meta tags.
+
+Add favicon and social preview image.
+
+Use real-world placeholder text (not AI-style filler).
+
+Include a “Privacy Policy” and “Terms of Service” page.
+
+Tone & Feel
+
+Professional but warm and trustworthy.
+
+The site should communicate authority, clarity, and confidence.
+
+Avoid overly flashy effects or robotic content.

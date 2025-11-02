@@ -1,0 +1,43 @@
+# Eraaxis Global Consult - Git Ignore
+
+# Sensitive Configuration
+config.php
+
+# Testing Files (delete before production)
+test-email.php
+
+# Logs
+logs/
+*.log
+
+# Data Files (contains subscriber emails)
+data/
+subscribers.json
+
+# Vendor (if using Composer)
+vendor/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Environment
+.env
+.env.local
+
+# Cache
+cache/
+*.cache
