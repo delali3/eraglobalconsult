@@ -94,7 +94,7 @@ $adminContent = '
 
 // Prepare email content for subscriber
 $subscriberContent = '
-    <p>Welcome to the Eraaxis Global Consult newsletter!</p>
+    <p>Welcome to the Docera Travel newsletter!</p>
     <p>Thank you for subscribing. You\'ll now receive our latest insights, updates, and exclusive content about:</p>
     <ul>
         <li>Business consulting trends and strategies</li>
@@ -107,11 +107,11 @@ $subscriberContent = '
     <p>If you wish to unsubscribe at any time, simply reply to this email with "Unsubscribe" in the subject line.</p>
     <p>Stay connected with us:</p>
     <ul>
-        <li>Website: www.eraaxisglobal.com</li>
-        <li>Email: support@eraaxisglobalconsult.com</li>
+        <li>Website: www.doceratravel.com</li>
+        <li>Email: support@doceratravel.com</li>
         <li>Phone: +233 24 906 0913</li>
     </ul>
-    <p>Best regards,<br><strong>Eraaxis Global Consult Team</strong></p>
+    <p>Best regards,<br><strong>Docera Travel Team</strong></p>
 ';
 
 try {
@@ -121,7 +121,7 @@ try {
     sendEmail(ADMIN_EMAIL, $adminSubject, $adminEmailBody);
 
     // Send welcome email to subscriber
-    $subscriberSubject = 'Welcome to Eraaxis Global Consult Newsletter';
+    $subscriberSubject = 'Welcome to Docera Travel Newsletter';
     $subscriberEmailBody = getEmailTemplate('Newsletter Subscription Confirmed', $subscriberContent);
     $subscriberEmailSent = sendEmail($email, $subscriberSubject, $subscriberEmailBody);
 

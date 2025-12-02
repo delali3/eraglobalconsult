@@ -1,4 +1,4 @@
-# Eraaxis Global Consult - Apache Configuration
+# Docera Travel - Apache Configuration
 
 # Enable Rewrite Engine
 <IfModule mod_rewrite.c>

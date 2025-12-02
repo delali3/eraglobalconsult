@@ -92,7 +92,7 @@ $adminContent = '
 // Prepare email content for client
 $clientContent = '
     <p>Dear ' . $firstName . ',</p>
-    <p>Thank you for booking a consultation with Eraaxis Global Consult. We have received your request and will contact you within 24 hours to confirm your appointment.</p>
+    <p>Thank you for booking a consultation with Docera Travel. We have received your request and will contact you within 24 hours to confirm your appointment.</p>
     <div class="info-box">
         <h3>Your Booking Details:</h3>
         <div class="info-row"><span class="info-label">Service:</span> ' . $consultationTypeLabel . '</div>
@@ -101,12 +101,12 @@ $clientContent = '
     </div>
     <p>If you have any questions in the meantime, please don\'t hesitate to reach out:</p>
     <ul>
-        <li>Email: support@eraaxisglobalconsult.com</li>
+        <li>Email: support@doceratravel.com</li>
         <li>Phone: +233 24 906 0913</li>
         <li>WhatsApp: +233 24 906 0913</li>
     </ul>
     <p>We look forward to speaking with you!</p>
-    <p>Best regards,<br><strong>Eraaxis Global Consult Team</strong></p>
+    <p>Best regards,<br><strong>Docera Travel Team</strong></p>
 ';
 
 try {
@@ -119,7 +119,7 @@ try {
     sendEmail(SECONDARY_EMAIL, $adminSubject, $adminEmailBody);
 
     // Send confirmation email to client
-    $clientSubject = 'Consultation Booking Confirmation - Eraaxis Global Consult';
+    $clientSubject = 'Consultation Booking Confirmation - Docera Travel';
     $clientEmailBody = getEmailTemplate('Booking Confirmation', $clientContent);
     $clientEmailSent = sendEmail($email, $clientSubject, $clientEmailBody);
 

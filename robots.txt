@@ -1,5 +1,5 @@
-# robots.txt for Eraaxis Global Consult
-# https://www.eraaxisglobal.com
+# robots.txt for Docera Travel
+# https://www.doceratravel.com
 
 User-agent: *
 Allow: /
@@ -17,7 +17,7 @@ Allow: /js/
 Allow: /assets/
 
 # Sitemap location
-Sitemap: https://www.eraaxisglobal.com/sitemap.xml
+Sitemap: https://www.doceratravel.com/sitemap.xml
 
 # Crawl-delay (optional - helps prevent server overload)
 Crawl-delay: 1

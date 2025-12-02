@@ -70,7 +70,7 @@ $adminContent = '
 // Prepare email content for client
 $clientContent = '
     <p>Dear ' . $name . ',</p>
-    <p>Thank you for contacting Eraaxis Global Consult. We have received your message and will respond within 24 hours.</p>
+    <p>Thank you for contacting Docera Travel. We have received your message and will respond within 24 hours.</p>
     <div class="info-box">
         <h3>Your Message:</h3>
         <p><strong>Subject:</strong> ' . $subject . '</p>
@@ -82,7 +82,7 @@ $clientContent = '
         <li>Alt Phone: +233 55 414 8133</li>
         <li>WhatsApp: +233 24 906 0913</li>
     </ul>
-    <p>Best regards,<br><strong>Eraaxis Global Consult Team</strong></p>
+    <p>Best regards,<br><strong>Docera Travel Team</strong></p>
 ';
 
 try {
@@ -95,7 +95,7 @@ try {
     sendEmail(SECONDARY_EMAIL, $adminSubject, $adminEmailBody);
 
     // Send confirmation email to client
-    $clientSubject = 'We received your message - Eraaxis Global Consult';
+    $clientSubject = 'We received your message - Docera Travel';
     $clientEmailBody = getEmailTemplate('Message Received', $clientContent);
     $clientEmailSent = sendEmail($email, $clientSubject, $clientEmailBody);
 
@@ -124,7 +124,7 @@ try {
     http_response_code(500);
     echo json_encode([
         'success' => false,
-        'message' => 'An error occurred while sending your message. Please try again or email us directly at support@eraaxisglobalconsult.com'
+        'message' => 'An error occurred while sending your message. Please try again or email us directly at support@doceratravel.com'
     ]);
 }
 ?>

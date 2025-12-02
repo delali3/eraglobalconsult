@@ -1,4 +1,4 @@
-// Eraaxis Global Consult - Main JavaScript
+// Docera Travel - Main JavaScript
 
 // Mobile Navigation Toggle
 document.addEventListener('DOMContentLoaded', function() {
@@ -350,5 +350,5 @@ if ('IntersectionObserver' in window) {
 }
 
 // Console welcome message
-console.log('%c Welcome to Eraaxis Global Consult ', 'background: #002B5B; color: #D4AF37; font-size: 16px; padding: 10px;');
+console.log('%c Welcome to Docera Travel ', 'background: #002B5B; color: #D4AF37; font-size: 16px; padding: 10px;');
 console.log('%c Empowering ideas. Elevating excellence. ', 'background: #D4AF37; color: #002B5B; font-size: 14px; padding: 8px;');

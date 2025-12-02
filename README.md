@@ -1,4 +1,4 @@
-# Eraaxis Global Consult Website
+# Docera Travel Website
 
 A modern, professional consulting website built with Tailwind CSS and vanilla JavaScript.
 
@@ -69,7 +69,7 @@ The website includes three forms:
 6. User sees success message
 
 ### Email Recipients:
-- **Primary:** support@eraaxisglobalconsult.com
+- **Primary:** support@doceratravel.com
 - Both primary and secondary receive all form submissions
 
 ### Testing Your Forms:
@@ -171,4 +171,4 @@ For questions or customization requests, contact the development team.
 
 ---
 
-**Eraaxis Global Consult** - Empowering ideas. Elevating excellence.
+**Docera Travel** - Empowering ideas. Elevating excellence.

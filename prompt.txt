@@ -1,13 +1,13 @@
 🚀 Prompt for AI Website Builder
 
-Build a modern, professional consultation website for Eraaxis Global Consult — a global consulting firm that provides business advisory, career guidance, academic consulting, and corporate services.
+Build a modern, professional consultation website for Docera Travel — a global consulting firm that provides business advisory, career guidance, academic consulting, and corporate services.
 
 The site should look authentic and human-designed, not AI-generated, with clean typography, smooth animations, and a corporate aesthetic similar to https://www.gradedconsultants.com/
 .
 
 Brand Identity
 
-Company Name: Eraaxis Global Consult
+Company Name: Docera Travel
 
 Tagline: “Empowering ideas. Elevating excellence.”
 
@@ -39,7 +39,7 @@ Mission, Vision, and Values.
 
 Short company story and leadership image.
 
-Why choose Eraaxis Global Consult — highlight professionalism, global reach, and proven results.
+Why choose Docera Travel — highlight professionalism, global reach, and proven results.
 
 Services
 
